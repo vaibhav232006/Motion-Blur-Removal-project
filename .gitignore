@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Virtualenv / Pipenv / Poetry
+.pip-cache/
+.pytest_cache/
+
+# Node / Next.js / React (for frontend if added)
+node_modules/
+.next/
+out/
+build/
+dist/
+.npm
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
